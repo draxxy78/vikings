@@ -33,7 +33,7 @@ while(diff!=0):
             d=np.sqrt(d1+d2)
             ED.append(d)
         X[i]=ED
-        i=i+1
+        i=i+1.
 
     C=[]
     for index,row in X.iterrows():
